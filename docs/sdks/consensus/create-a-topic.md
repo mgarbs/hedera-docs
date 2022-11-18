@@ -205,7 +205,7 @@ const transaction = await TopicCreateTransaction()
     .setAdminKey(adminKey);
     
 //Get the admin key from the transaction    
-const getKey = transaction.getAdminKey();
+const topicAdminKey = transaction.adminKey;
 ```
 {% endcode %}
 
