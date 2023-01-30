@@ -151,7 +151,7 @@ $ git clone https://github.com/hyperledger-labs/pluggable-hcs fabric
 $ cd fabric
 ```
 
-* Confirm you are on the master branch
+* Confirm you are on the main branch
 
 ```
 $ git branch
