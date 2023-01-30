@@ -169,6 +169,7 @@ $ cd fabric
 
 * Follow the commands below to build the required fabric binaries and docker images
   * Note: This process may take a few minutes to complete
+  * Note: newer versions of docker enable gRPC FUSE file sharing implementation by default. Change this implementation to osxfs (Legacy) from Docker settings
 
 ```
 $ make clean
